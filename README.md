@@ -40,7 +40,6 @@ my_project/
 │   │── utils.py
 │   ├── main.py                 # Main script to run the project
 ├── README.md               # Documentation file
-├── requirements.txt        # Dependencies file
 ├── .gitignore              # File for excluding unnecessary files from version control
 └── driver track.bat        # Batch file for automating the run process
 ```
@@ -53,18 +52,12 @@ my_project/
    cd my_project
    ```
 
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. **Install Dependencies**
 
 ## Usage
 
 1. Place your input files `export.xlsx` for trip data in the `Downloads` directory, `drivers_info.xlsx` for driver info in the `data` directory.
-2. Run the application:
-   ```bash
-   python src/main.py
-   ```
+2. Run the application
 3. The application will process the data and generate a report (`driver_track.xlsx`) in your Downloads folder.
 
 Alternatively, you can run the batch file provided (`driver track.bat`) for automation.
