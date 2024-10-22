@@ -1,0 +1,5 @@
+# Ignore the entire data directory and its contents
+data/
+
+# Ignore the driver track batch file
+driver track.bat
